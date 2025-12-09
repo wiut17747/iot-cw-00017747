@@ -1,0 +1,10 @@
+{
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "prettier": "3.7.4"
+  },
+  "dependencies": {
+    "serialport": "^13.0.0"
+  }
+}
