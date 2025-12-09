@@ -1,6 +1,6 @@
 import { SerialPort } from "serialport";
 import { ReadlineParser } from "@serialport/parser-readline";
-import { exec } from "child_process";
+import { exec } from "node:child_process";
 
 const API_KEY = "FWPUD7293I28SQRV";
 const PORT_NAME = "/dev/cu.usbmodem14201";
